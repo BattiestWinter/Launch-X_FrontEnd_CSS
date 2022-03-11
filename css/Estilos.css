@@ -52,20 +52,23 @@
     /*justify-content: space-between;*/
 }
 
+
+/*Página1*/
 .pag1{
     width: 50%;
 }
 
 .pag1 .titl{
     /*margin: 20% 20% 0;*/
-    margin: 150px 150px 0;
+    margin: 150px 0 0 150px;
     font-size: 17pt;
     text-align: left;
     color: #1F3E72;
 }
 
 .pag1 .parr{ 
-    margin: 0 150px;
+    margin-left: 150px;
+    
     text-align: left;
     font-weight: bold;
     color: grey;
@@ -128,7 +131,7 @@
 .divisiones{
     /*margin-top: 45%;
     margin-left: 10%;*/
-    margin-top: 550px;
+    margin-top: 535px;
     margin-left: 150px;
     display: flex;
     align-items: center;
@@ -188,7 +191,7 @@
 
 .marcas{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     margin: 30px 100px;
 }
@@ -196,6 +199,23 @@
 .marcas img{
     width: 200px;
     
+}
+
+/*Página2*/
+.pagina2 .titl{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 10pt;
+    text-align: left;
+    color: #1F3E72;
+}
+
+.pagina2 .parr{ 
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align: left;
+    font-weight: bold;
+    color: grey;
 }
 
 .pag2 .titl{
@@ -212,4 +232,216 @@
     text-align: left;
     font-weight: bold;
     color: grey;
+}
+
+.divisiones2{
+    display: flex;
+    margin: 50px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divisiones2 .div2{
+    box-sizing: content-box;
+    width: 200px;
+    height: 250px;
+    background-color: rgba(225, 225, 255, 0.342);
+    /*border: 1px solid rgba(0, 0, 255, 0.158);*/
+}
+
+.div2 i{
+    font-size: 20pt;
+    padding: 4px;
+    background-color: rgb(225, 225, 255);
+    border-radius: 15%;
+    color: rgb(25, 25, 238);
+    margin: 10px 10px;
+}
+
+.div2 h5{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #1F3E72;
+    text-align: left;
+}
+
+.div2 p{
+    margin: 0 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    color: grey;
+    text-align: left;
+}
+
+/*Página3*/
+.wMargin .titl{
+    margin: 0 0;
+    margin-right: 150px;
+    margin-top: 150px;
+    font-size: 13pt;
+}
+
+.wMargin .parr{
+    margin: 0 0;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.div3{
+    margin-top: 50px;
+    box-sizing: content-box;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(225, 225, 255, 0.342);
+    /*border: 1px solid rgba(0, 0, 255, 0.158);*/
+}
+
+.div3 p{
+    /*margin-left: 5px;*/
+    font-size: 12pt;
+    font-weight: bold;
+    color: grey;
+}
+
+.encS3{
+    display: flex;
+    align-items: center;
+}
+
+.encS3 i{
+    padding: 4px;
+    background-color: rgb(225, 225, 255);
+    border-radius: 15%;
+    color: rgb(25, 25, 238);
+    margin: 0px 10px;
+}
+
+.div3 .bi-caret-down-fill{
+    margin-left: auto;
+}
+
+/*Página4*/
+.pag1 .minTitl{
+    margin-bottom: 30px;
+    font-size: 12pt;
+}
+
+.separacion{
+    margin-top: 150px;
+}
+
+.divisiones4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0 0 150px;
+}
+
+.div4{
+    box-sizing: content-box;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(225, 225, 255, 0.342);
+    /*border: 1px solid rgba(0, 0, 255, 0.158);*/
+}
+
+.separacion2{
+    margin-top: 20px;
+}
+
+.div4 h5{
+    /*margin-left: 5px;*/
+    
+    font-size: 12pt;
+    font-weight: bold;
+    color: #1F3E72;
+}
+
+.div4 p{
+    /*margin-left: 5px;*/
+    margin-top: -20px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: grey;
+}
+
+.encS4{
+    display: flex;
+    align-items: center;
+}
+
+.encS4 i{
+    font-size: 20pt;
+    padding: 4px;
+    background-color: rgb(225, 225, 255);
+    border-radius: 15%;
+    color: rgb(25, 25, 238);
+    margin: 0px 10px;
+}
+
+.separacion-btn{
+    margin-top: 0px;
+    background-color: rgb(225, 225, 255) !important;
+    color: rgb(25, 25, 238);
+}
+
+/*Pie de página*/
+footer{
+    background-color: rgb(225, 225, 255);
+    position: absolute;
+    bottom: 0;
+    margin: 0 0;
+    height: 200px;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.pieP{
+    display: flex;
+   
+}
+
+.pieP h5{
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(25, 25, 238);
+}
+
+.esp1{
+    margin-left: 150px;
+    
+}
+
+.div5{
+    box-sizing: content-box;
+    height: 200px;
+    width: 200px;
+    /*border: 1px solid rgba(0, 0, 255, 0.158);*/
+}
+
+.pieP p{
+    margin-top: -20px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: grey;
+}
+
+.esp2{
+    margin-left: auto;
+}
+
+.resp p{
+    margin-top: 0;
+}
+
+.resp h5{
+    font-size: 12pt;
+    font-weight: bold;
+    color: #1F3E72;
 }
